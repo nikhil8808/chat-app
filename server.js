@@ -12,7 +12,7 @@ let registered_user=""
 const io=new Server(server)
 
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname+"/views/index.html")
+    res.sendFile(__dirname+"/index.html")
 })
 
 const PORT=4000;
